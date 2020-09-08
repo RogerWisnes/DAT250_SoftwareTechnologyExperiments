@@ -1,10 +1,10 @@
 # DAT250: Software Technology Experiment Assignment 2
 
 ## Task statement:
-### 1: Introduction 
+### Introduction 
 "The goal of this assignment is to make some initial experiment with the Java Persistence Architecture (JPA). This will include setting up a database for experimentation and study object-relational mapping."
 
-### 2: Installation: Derby Database
+### Installation: Derby Database
 Download and install the Apache Derby database by going through the tutorial which can be found here:
 http://db.apache.org/derby/papers/DerbyTut/index.html
 
@@ -20,15 +20,43 @@ Try to implement the domain model for credit cards corresponding to the small as
 ## Hand-in report
 
 ### Technical problems
-- technical problems that you encountered during installation and use of Java Persistence Architecture (JPA) and how you resolved
+Through this experiment I encountered three main problems:
+
+
+**Problem 1:**
+During installation of Derby, when configuring JDK, the path and java_home did not work toghether. I quickly found out that there was some mismatch in java-version, so this should be a quick fix (since I encountered the same problem in assignment 1). However, this time the problem did not disappear. 
+
+I set the path to point to the java_home-variable, and set the java_home to point to jdk-14, but still, when I executed "java -version" in cmd / PS it clearly stated that I had jdk-1.8 and nothing worked as it should.
+
+After ages of searching online, I figured that I had an unused system variable that pointed to the wrong java-version. This variable was listed before java_home (in path), and thereby interferred with the connection between path and java_home. Moving java_home further up in the variable-list (above the other one), fixed this problem.
+
+**Problem 2:**
+As if the first problem did not waste enough time, when I finally got to Experiment 1, I soon enough encountered a new problem. Following the given tutorial, I was told to import three .jar-files to a lib-folder, and adding them to classpath. This prooved to be a lot more frustrating than I anticipated.
+
+- Eclipse's tutorial states the following: "To add JAR file located in the project to its classpath, right-click on the JAR file and select Build Path > Add to Build Path", and so I did. This, however, did not add the jar-files to classpath, but instead to module-path. This did not work. When I finaly found this issue, I went into settings and moved the files to classpath. Problem solved.
+
+- Or so I thought. Now I got an error stating that the import javax.persistence(...) could be found in two of the jar-files, and just choosing one of them seemed to be impossible. Moving some of the jar-files back to module-path fixed **this** issue, but produced a wide variety of other error-messages. Once again, I had to pray to the great god of Google, and make great sacrifices of time. However, it seemed that all fixes I could find required me to have a maven-project, but following the tutorial, I had a standard java-project. The fix for this problem ended up being to delete the javax-jar, and reimport it to lib.
+
+- Finally the code itself gave no errors, so I could compile the code for the first time. Result: java.lang.NoClassDefFoundError. Again: All fixes I could find required a maven-project so that I could easier use dependensies. Now I gave up hope on the JPA-tutorial, and converted to a maven-project. Now I could follow the instructions given at the github-repo that was given in the assignment-description. But to no avail. I still got the same error. All fixes I could find was just as disappointing as the previous one. After too much time wasted, I ended up starting from scratch with a completely new maven-project. 
+
+- Still, I got the same error, but the road to that error was shorter. I therefore deleted the project again, redownloaded the jar-files, gave up Eclipse, and tried once again with IntelliJ. Finally, absolutely everything in the simpleDB-tutorial worked.
+
+**Problem 3:**
+Described in pending issues.
+
 
 ### Link to answer-codes
 - a link to your code for experiment 1 and 2 above
 
+
 ### Database-inspection
-- an explanation of how you inspected the database tables and what tables were created. For the latter you may provide screenshots.
+I tried setting up Apache Derby database-tool in IntelliJ, but I encountered a new problem where I could not connect to the database. I did not have the time to work any further on this issue.
+
 
 ### Pending issues
-- any pending issues with this assignment which you did not manage to solve
+At last, the pending issue would indirectly be considered time. Because of the two major issues described previously, I did not get the chance to complete the assignment.
 
-The hand-in should be written in **English**.
+Still working on experiment 1, I completed the tutorial, and was going to start on inspecting the database, but I could not connect to it.
+As a result, I could not start on experiment 2, and I could not complete experiment 1.
+
+
