@@ -1,6 +1,6 @@
 # DAT250: Software Technology Experiment Assignment 2
 
-### 1: Introduction
+## 1: Introduction
 **Task statement:** 
 "The goal of this assignment is to make some initial experiment with the Java Persistence Architecture (JPA). This will include setting up a database for experimentation and study object-relational mapping."
 
