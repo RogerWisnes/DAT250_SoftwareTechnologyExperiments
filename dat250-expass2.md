@@ -1,4 +1,4 @@
-## DAT250: Software Technology Experiment Assignment 2
+# DAT250: Software Technology Experiment Assignment 2
 
 ### 1: Introduction
 **Task statement:** 
