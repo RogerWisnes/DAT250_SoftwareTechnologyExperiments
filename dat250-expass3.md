@@ -39,10 +39,15 @@ During this experiment assignment, I encountered no technical issues.
 
 ### Screenshots
 #### The correct validation of the installation package
-Format: ![Alt Text](img/screenshots/expass3/Validation_Install-package.png?raw=true)
+![Alt Text](img/screenshots/expass3/Validation_Install-package.png?raw=true)
+
 #### Experiment 1: CRUD operation
+![Alt Text](img/screenshots/expass3/Operation_CRUD.png?raw=true)
 
 #### Experiment 2: Example working and the additional Map-reduce operation
+![Alt Text](img/screenshots/expass3/mapReduce_Examle.png?raw=true)
+
+![Alt Text](img/screenshots/expass3/mapReduce_ItemQty.png?raw=true)
 
 ### Reason why the implemented Map-reduce operation is useful and interpret the collection obtained. 
 
