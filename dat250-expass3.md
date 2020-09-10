@@ -45,7 +45,7 @@ During this experiment assignment, I encountered no technical issues.
 ![Alt Text](img/screenshots/expass3/Operation_CRUD.png?raw=true)
 
 #### Experiment 2: Example working and the additional Map-reduce operation
-![Alt Text](img/screenshots/expass3/mapReduce_Examle.png?raw=true)
+![Alt Text](img/screenshots/expass3/mapReduce_Example.png?raw=true)
 
 ![Alt Text](img/screenshots/expass3/mapReduce_ItemQty.png?raw=true)
 
