@@ -50,5 +50,8 @@ During this experiment assignment, I encountered no technical issues.
 ![Alt Text](img/screenshots/expass3/mapReduce_ItemQty.png?raw=true)
 
 ### Reason why the implemented Map-reduce operation is useful and interpret the collection obtained. 
+In this case, we are working on a collection of orders. For a sales analyst, the sale statistics are quite important. These statistics can be used to calculate demand, to find out what quantities should be ordered of what items.
+My map-reduce implementation creates an overview of how many units have been sold of which item, and could thereby prove to be quite useful for analytics.
 
 ### Pending issues
+During this experiment assignment, I encountered no issues.
