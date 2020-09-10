@@ -39,7 +39,7 @@ During this experiment assignment, I encountered no technical issues.
 
 ### Screenshots
 #### The correct validation of the installation package
-Format: ![Alt Text](https://github.com/RogerWisnes/DAT250_SoftwareTechnologyExperiments/blob/master/img/screenshots/expass3/Validation_Install-package.png?raw=true)
+Format: ![Alt Text](img/screenshots/expass3/Validation_Install-package.png?raw=true)
 #### Experiment 1: CRUD operation
 
 #### Experiment 2: Example working and the additional Map-reduce operation
