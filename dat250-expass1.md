@@ -1,17 +1,28 @@
-Hand-in report
+# DAT250: Software Technology Experiment Assignment 1
+## Task statement:
+### Introduction
+The goal of this assignment is to make sure that you have a working Software Development Environment installed on your PC which will be needed in the reminder of this course. As part of the installation, you will have to validate that the installed software development environment is working properly.
 
----------------------------------------------------------------------
----------------------------------------------------------------------
--   Technical problems that you encountered during installation of  -
-- the software development environment and how you have solved them -
----------------------------------------------------------------------
+### Installation: Software Development Environment
+You must make sure that you have the following installed on your PC:
+- Java Development Environment (JDK): https://www.oracle.com/java/technologies/javase-downloads.html
+- An Integrated Development Environment (IDE) which could be Eclipse: https://www.eclipse.org/downloads/packages/ , IntelliJ: https://www.jetbrains.com/idea/ or some other IDE of your choice.
+- Maven software management tool: https://maven.apache.org
+- A Git client: https://git-scm.com
+In addition, you must make sure that you have a github account: https://github.com which you will use for handing in the assignments in the course.
 
-The requirements were as follows:
-* JDK
-* IDE
-* Maven
-* Git
-* GitHub
+### Experiment: Heroku and Platform as a Service
+In this experiment you are to deploy a small Java application in the cloud using the Heroku cloud application platform: https://www.heroku.com
+For the experiment you need to create an account on Heroku.
+Complete the tutorial for deploying Java applications on the Heroku cloud platform: https://devcenter.heroku.com/articles/getting-started-with-java
+
+# Hand-in report
+- technical problems that you encountered during installation of the software development environment and how you have solved them
+- how you have *validated* (checked) that the software development environment is working
+- technical problems encountered with the Heroku platform and how you solved them
+- any pending issues with this assignment which you did not manage to solve
+### Technical problems with installation
+The requirements were as follows: JDK, IDE, Maven, Git, GitHub
 
 On this matter, the first three of the mentioned requirements were already 
 installed. I chose to update both JDK and IDE (IntelliJ), using the 
@@ -19,26 +30,12 @@ technologies' providers, and I updated maven through Chocolatey in Powershell
 (Windows 10).
 
 I already had Git and GitHub as well, so nothing more to do here.
-
 Through the installation (/updating) process, I met no problems at all.
 
+### Validation
+As a validation process, I have booted up previous projects of mine, using IntelliJ, to see if these are working as they should. 
 
------------------------------------------------
------------------------------------------------
--  How you have validated (checked) that the  -
-- software development environment is working -
------------------------------------------------
-
-As a validating process, I have booted up previous projects of mine, 
-using IntelliJ, to see if these are working as they should. 
-
-
--------------------------------------------
--------------------------------------------
-- Technical problems encountered with the -
-- Heroku platform and how you solved them -
--------------------------------------------
-
+### Technical problems with Heroku
 For some some reason that I cannot explain at the top of my head, the 
 path for "JAVA_HOME" was set to a JRE. This created some build-problems 
 when I tried the "mvn clean install"-command in Powershell. 
@@ -57,13 +54,7 @@ account.
   without adding my credit card information. So, In short: The way I see it - 
   Problem solved.
 
-
--------------------------------------------
--------------------------------------------
-- Any pending issues with this assignment -
--    which you did not manage to solve    -
--------------------------------------------
-
+### Pending issues
 One of the modules required me to add a dependency (together with some code). 
 This dependency was marked as a "not found"-error by IntelliJ. Following that 
 error, the codes that used this dependency also got an error (about missing 
