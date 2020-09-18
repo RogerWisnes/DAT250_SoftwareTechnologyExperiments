@@ -38,7 +38,7 @@ Try to investigate how Swagger may be used to specify the REST API from experime
 ### Experiment 4: XML representation (optional)
 Investigate how the Spark/Java may be used to return and consume XML resource representations of the Todo-items.
 
-## Hand-in report
+# Hand-in report
 ### Technical problems
 - technical problems that you encountered during installation and use of Java Persistence Architecture (JPA) and how you resolved
 
