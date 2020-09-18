@@ -44,6 +44,7 @@ During this experiment assignment, I encountered no technical problems.
 
 ### Link to code
 https://github.com/RogerWisnes/DAT250_Todo
+
 **Note:** Since they were optional, I chose not to do experiment 3 and 4.
 
 ### Pending issues
