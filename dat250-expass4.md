@@ -43,7 +43,7 @@ Investigate how the Spark/Java may be used to return and consume XML resource re
 - technical problems that you encountered during installation and use of Java Persistence Architecture (JPA) and how you resolved
 
 ### Link to code
-- a link to your code for experiment 2-4 above
+https://github.com/RogerWisnes/DAT250_Todo
 
 ### Pending issues
 - any pending issues with this assignment which you did not manage to solve
