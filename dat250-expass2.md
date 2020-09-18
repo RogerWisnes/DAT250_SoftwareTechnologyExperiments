@@ -1,27 +1,27 @@
 # DAT250: Software Technology Experiment Assignment 2
-
 ## Task statement:
-### Introduction 
-"The goal of this assignment is to make some initial experiment with the Java Persistence Architecture (JPA). This will include setting up a database for experimentation and study object-relational mapping."
+### Introduction
+The goal of this assignment is to make some initial experiment with the Java Persistence Architecture (JPA). This will include setting up a database for experimentation and study object-relational mapping.
 
 ### Installation: Derby Database
-Download and install the Apache Derby database by going through the tutorial which can be found here:
-http://db.apache.org/derby/papers/DerbyTut/index.html
+
+Download and install the Apache Derby database by going through the tutorial which can be found here: http://db.apache.org/derby/papers/DerbyTut/index.html
 
 ### Experiment 1: Application using JPA
 Setup a Java application which uses JPA for storing entities in a database based on the following tutorial:
 https://www.vogella.com/tutorials/JavaPersistenceAPI/article.html#installation
+
+You may also use the Maven project found at the following repo, as a starting point:
+https://github.com/lmkr/dat250-jpa-examples/tree/master/eclipselink/jpa-basic
 
 Find a way to inspect the database tables being created - either from the IDE or by logging into the database server.
 
 ### Experiment 2: Banking/Credit Card example JPA
 Try to implement the domain model for credit cards corresponding to the small assignment that was introduced in the last lecture video on object-relationship mapping. Does the tables created correspond to your initial answer to the exercise.
 
-## Hand-in report
-
+# Hand-in report
 ### Technical problems
 Through this experiment I encountered three main problems:
-
 
 **Problem 1:**
 During installation of Derby, when configuring JDK, the path and java_home did not work toghether. I quickly found out that there was some mismatch in java-version, so this should be a quick fix (since I encountered the same problem in assignment 1). However, this time the problem did not disappear. 
@@ -44,19 +44,15 @@ As if the first problem did not waste enough time, when I finally got to Experim
 **Problem 3:**
 Described in pending issues.
 
-
-### Link to answer-codes
+### Link to code
 Link to last code for experiment 1:
 https://github.com/RogerWisnes/de.vogella.jpa.eclipselink
 
 ### Database-inspection
 I tried setting up Apache Derby database-tool in IntelliJ, but I encountered a new problem where I could not connect to the database. I did not have the time to work any further on this issue.
 
-
 ### Pending issues
 At last, the pending issue would indirectly be considered time. Because of the two major issues described previously, I did not get the chance to complete the assignment.
 
 Still working on experiment 1, I completed the tutorial, and was going to start on inspecting the database, but I could not connect to it.
 As a result, I could not start on experiment 2, and I could not complete experiment 1.
-
-
