@@ -1,9 +1,7 @@
 # DAT250: Software Technology Experiment Assignment 4
 ## Task statement:
 ### Introduction
-
-The goal of this assignment is to make initial experiments with REST APIs and the Spark/Java framework for implementing microservices. In this assignment, you will be using the following software technology:
-
+The goal of this assignment is to make initial experiments with REST APIs and the Spark/Java framework for implementing microservices. In this assignment, you will be using the following software technologies:
 - The Spark/Java framework: http://sparkjava.com
 - The Postman tool: https://www.postman.com
 - Swagger: https://swagger.io
@@ -52,16 +50,12 @@ Try to investigate how Swagger may be used to specify the REST API from experime
 
 Investigate how the Spark/Java may be used to return and consume XML resource representations of the Todo-items.
 
-### Hand-in: short report
-
-As hand in, you must add a markdown file called `dat250-expass4.md` to the same repository that you created in the earlier software technology assignments.
-
-In particular, you should write about:
-
+## Hand-in report
+### Technical problems
 - technical problems that you encountered during installation and use of Java Persistence Architecture (JPA) and how you resolved
 
+### Link to code
 - a link to your code for experiment 2-4 above
 
+### Pending issues
 - any pending issues with this assignment which you did not manage to solve
-
-The hand-in should be written in **English**.
