@@ -22,7 +22,8 @@ I encountered two technical problems, during this assignment:
 - The second tutorial seems to be missing the code for the application itself. I could, however, find it in their github-repo.
 
 ### Link to code
-- a link to your code for experiment 1-4 above
+
+https://github.com/RogerWisnes/DAT250_Spring
 
 ### Pending issues
 In this assignment, I have no pending issues
