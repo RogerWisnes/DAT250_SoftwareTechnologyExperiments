@@ -17,10 +17,12 @@ Complete the tutorial: https://spring.io/guides/gs/accessing-data-jpa/
 
 # Hand-in report
 ### Technical problems
-- technical problems that you encountered during the completion of the tutorial
+I encountered two technical problems, during this assignment:
+- Using Windows Powershell and cmd for running the application was problematic. Powershell did not recognize the term mvnw, and I could not find a way to fix this issue. Using cmd instead, worked like a charm during the first tutorial, but could not find out what to run when two (and more) tutorials shared the same repository. This may have an easy fix, but I did not want to wast any more time on it. The fix for me, was using the run-function in IntelliJ, so that I could easily choose what file to run at any time.
+- The second tutorial seems to be missing the code for the application itself. I could, however, find it in their github-repo.
 
 ### Link to code
 - a link to your code for experiment 1-4 above
 
 ### Pending issues
-- any pending issues with this assignment which you did not manage to solve
+In this assignment, I have no pending issues
