@@ -9,7 +9,7 @@ Complete the tutorial on Spring MVC at: https://spring.io/guides/gs/serving-web-
 ### Experiment 2: Single-page Web Applications
 Complete the tutorial on the React framework at: https://reactjs.org/tutorial/tutorial.html
 
-## Hand-in report
+# Hand-in report
 ### Technical problems
 During this experiment assignment, I encountered no technical problems.
 
