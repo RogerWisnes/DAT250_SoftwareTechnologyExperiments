@@ -23,13 +23,7 @@ You can freely choose the programming language.
 - technical problems that you encountered during the completion of the tutorial
 
 ### Link to code
-Experiment 1: 
-
-Experiment 2: 
-
-Experiment 3: 
-
-Experiment 4: 
+https://github.com/RogerWisnes/DAT250_RabbitMQ
 
 ### Pending issues
 - any pending issues with this assignment which you did not manage to solve
